@@ -15,14 +15,7 @@ This project demonstrates an end-to-end NLP pipeline that automatically generate
 
 ## 📂 Project Structure
 
-├── config/                # Configuration files (params.yaml, config.yaml)
-├── src/                   # Source code for pipelines and utilities
-├── app/                   # FastAPI web server
-│   ├── app.py             # API routes: /train and /predict
-├── Dockerfile             # Docker container definition
-├── main.py                # Entrypoint for model training
-├── requirements.txt       # Dependencies
-├── .github/workflows/     # CI/CD pipeline using GitHub Actions
+<pre> <code>📂 Project Structure ``` 📂 Project Structure ├── config/ # Configuration files (params.yaml, config.yaml) ├── src/ # Source code for pipelines and utilities ├── app/ # FastAPI web server │ ├── app.py # API routes: /train and /predict ├── Dockerfile # Docker container definition ├── main.py # Entrypoint for model training ├── requirements.txt # Dependencies ├── .github/workflows/ # CI/CD pipeline using GitHub Actions ``` </code> </pre>
 
 ## 🧪 Model Pipeline (Part 1)
 Data Ingestion – Downloads SAMSum dataset and organizes it.
