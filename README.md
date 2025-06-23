@@ -31,7 +31,7 @@ Data Validation – Verifies presence and format of train/val/test splits.
 
 Data Transformation – Uses PEGASUS tokenizer to prepare inputs.
 
-Model Training – Trains PEGASUS summarizer with HuggingFace Trainer.
+Model Training – Configurable training via params.yaml.
 
 Evaluation – Outputs ROUGE scores and saves them for analysis.
 
