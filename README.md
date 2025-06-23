@@ -1,12 +1,15 @@
-# End to end Text-Summarizer-NLP-Project
+# 📝 End-to-End Text Summarization
 
-## Workflows
+This project demonstrates an end-to-end NLP pipeline that automatically generates concise summaries from conversational text using the PEGASUS transformer model. It covers the complete ML lifecycle: from data ingestion to deployment, including model training, evaluation, and web UI integration.
 
-1. Update config.yaml
-2. Update params.yaml
-3. Update entity
-4. Update the configuration manager in src config
-5. Update the conponents
-6. Update the pipeline
-7. Update the main.py
-8. Update the app.py
+## 🚀 Project Features
+🧠 Model Training with PEGASUS
+
+📊 ROUGE-based Evaluation
+
+⚙️ FastAPI-based Inference Server
+
+🐳 Dockerized Deployment on AWS EC2 & ECR
+
+🔁 CI/CD with GitHub Actions
+
